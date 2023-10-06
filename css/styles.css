@@ -32,7 +32,7 @@ html{
 
 
 *::selection{
-  background:var(--black);
+  background:var(--white);
 }
 
 
@@ -163,11 +163,11 @@ html::-webkit-scrollbar-thumb{
 }
 
 .btn:hover{
-  color:#fff;
+  color:#262626;
 }
 
 header{
-  position:sticky;
+  position:fixed;
   top:0; left: 0; right:0;
   z-index: 1000;
   display: flex;
@@ -214,8 +214,8 @@ header .navbar a:hover{
   
   .Accueil .box-container .box{
     padding:2rem;
-    background:#fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    background:#262626;
+    box-shadow: 0 .5rem 1rem rgba(255, 255, 255, 0.550);
     border:.1rem solid rgba(0,0,0,.3);
     border-radius: .5rem;
     text-align: center;
@@ -286,18 +286,18 @@ header .navbar a:hover{
       justify-content: space-between;
       margin-top: 20px;
       padding-top: 15px;
-      border-top:1px solid #334;
+      border-top:1px solid rgb(153, 153, 197);
   }
   
   
 .box-container .box .content h3{
       font-size: 20px;
-      color:#334;
+      color:rgb(174, 174, 241);
 }
     
 .box-container .box .content p{
       font-size: 15px;
-      color:#777;
+      color:#ffffff;
       line-height: 2;
       padding:15px 0;
 }
