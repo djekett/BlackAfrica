@@ -20,15 +20,12 @@
   transition:all .2s linear;
 }
 
-
 html{
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
 }
-
-
 
 
 *::selection{
@@ -211,6 +208,8 @@ header .navbar a:hover{
     flex-wrap: wrap;
     gap:1.5rem;
   }
+
+
   
   .Accueil .box-container .box{
     padding:2rem;
@@ -222,6 +221,8 @@ header .navbar a:hover{
     flex:1 1 30rem;
     position: relative;
   }
+
+
   
 .Accueil  .box-container .box img{
   height: 15rem;
@@ -279,6 +280,9 @@ header .navbar a:hover{
     padding-top: 15px;
     border-top:1px solid #334;
   }
+
+
+
   
   .box .content .icons{
       display: flex;
@@ -321,7 +325,7 @@ header .navbar a:hover{
     right:2rem;
     padding:.5rem 1.5rem;
     font-size: 4rem;
-    background:var(--red);
+    background:var(--yellow);
     color:#fff;
     border-radius: .5rem;
     transition: 1s linear;
@@ -368,6 +372,45 @@ header .navbar a:hover{
   .footer .credit span{
     color:var(--red);
   }
+
+
+  .loader-container{
+    position: fixed;
+    top:0; left:0;
+    font-size: 2em;
+    z-index: 10000;
+    color: var(--yellow);
+    background:#262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+  }
+  
+  .loader-container.fade-out{
+    top:-120%;
+  }
+
+
+  #load-more{
+  margin-top: 20px;
+  display: inline-block;
+  padding:13px 30px;
+  border:1px solid #334;
+  color:#334;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#load-more:hover{
+  background-color: crimson;
+  border-color: crimson;
+  color:#fff;
+}
+
+
   
 
 
